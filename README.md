@@ -1,3 +1,29 @@
+# MiniDataBase Project
+
+## Overview
+
+MiniDataBase is a simple database management system implemented using a B+ Tree data structure. It allows for insertion, searching, deletion, and display of student records, which are stored in text files. 
+
+Each student record includes:
+- Roll Number (unique identifier)
+- Name
+- Age
+- Marks
+- The records are stored in individual text files using the student's Roll Number as the file name.
+
+## Features
+
+- **Insert** a student record.
+- **Search** for a student record by Roll Number.
+- **Display** the B+ Tree structure:
+  - Hierarchical display.
+  - Sequential display.
+- **Delete** a student record by Roll Number.
+
+## Requirements
+
+- C++ Compiler (e.g., g++, Visual Studio)
+- B+ Tree library (`B+ Tree.h`)
 
 ## How to Run
 
